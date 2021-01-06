@@ -33,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
       create: (context) => airlineBloc,
       child: Scaffold(
           appBar: AppBar(
-            title: Text('Hello'),
+            title: Text('Airlines'),
           ),
           body: AirlineListTile(),
       )
